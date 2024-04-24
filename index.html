@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website and App Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+			color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+       
+        nav {
+            background-color:silver;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+			color: #fff;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+       
+        .hero {
+            height: 100vh;
+            background-image: url('121.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        /* Main Sections */
+        main {
+            padding: 2rem;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+        }
+		 form {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">BIRU'S TECH</a></li>
+            <li><a href="#">Website Maintenance</a></li>
+            <li><a href="#">MOBILE APPS</a></li>
+            <li><a href="#">App Development</a></li>
+        </ul>
+        <div>
+            <a href="#" id="request-quote">ABOUT</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Your One-Stop Solution for Website and App Development</h1><br>
+		
+    </div>
+	
+    <main>
+	<form action="#">
+	<h2>Login here</h2>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter The Full Nmae Here" id="name" required>
+                <label for="email">  Email</label>
+                <input type="email" placeholder="Enter The Email" id="email" required>
+                <label for="service">Which Services are you looking for?</label>
+                <textarea id="service" rows="4" required></textarea>
+                <label for="business">Which Business do you have?</label>
+                <input type="text" id="business" required>
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="+91 XXXXX-XXXXXX" id="phone" required>
+				<label for="name">Select your Course</label>
+				<select id="course" name="course">
+					<option value="">select</option>
+					<option value="bca">BCA</option>
+					<option value="bba">BBA</option>
+					</select></br></br>
+				<button>SUBMIT</button>
+				<br><br>
+	
+        <section id="website-design">
+            <h2>Website Design & Development</h2>
+            <p>Fully compatible and user-friendly dynamic websites to perform the user's requirements.</p>
+        </section>
+        <section id="website-maintenance">
+            <h2>Website Maintenance</h2>
+            <p>The top class of maintenance of websites to ensure the availability of 24/7.</p>
+        </section>
+        <section id="mobile-apps">
+            <h2>Mobile Apps</h2>
+            <p>4444</p>
+        </section>
+        <section id="app-development">
+            <h2>App Development</h2>
+            <p>Designing smooth-running applications with the latest features for every medium.</p>
+        </section>
+    </main>
+</body>
+</html>
